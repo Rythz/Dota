@@ -1,0 +1,285 @@
+Bind "A" dota_ability_quickcast 0;
+Bind "Z" dota_ability_quickcast 1;
+Bind "E" dota_ability_quickcast 2;
+Bind "D" dota_ability_quickcast 3;
+Bind "F" dota_ability_quickcast 4;
+Bind "R" dota_ability_quickcast 5;
+
+bind "1" dota_item_quick_cast 0;                                                              
+bind "2" dota_item_quick_cast 1;                                                            
+bind "3" dota_item_quick_cast 2;                                                             
+bind "4" dota_item_quick_cast 3;                                                             
+bind "TAB" dota_item_quick_cast 4;                                                       
+bind "5" dota_item_quick_cast 5;                                                            
+ 
+
+bind "s" +dota_control_group 1;                                                          
+bind "x" +dota_control_group 2;                                                          
+//bind "alt-c" +dota_control_group 3;                                                       
+//bind "alt-v" +dota_control_group 4;                                                          
+
+
+bind "space" +dota_camera_follow;                                                                                
+bind "V" dota_select_all;                                                          
+bind "C" dota_select_all_others;                                            
+                                                                   
+ 
+
+bind "Q" mc_attack;                                                                                                                                
+//bind "²" dota_hold;                                                                                        
+bind "M" mc_move;                                                                                     
+//bind "RALT" +dota_unit_movetodirection;                //? Directional Move (Ignore PathFinding)
+bind "T" mc_patrol;                                                                     
+bind "F4" dota_glyph;                                                                                       
+//bind "modF4" dota_radar;                                                                                         
+//bind \ use_item_client player_loadout action_item;     //  Action Item
+bind "MWHEELDOWN" use_item_client current_hero taunt;   //? Taunt Item                                 
+ 
+
+bind "F2" dota_select_courier;                                                                        
+//bind "ALT-F1" toggleshoppanel;                                                                                      
+bind "F1" dota_purchase_quickbuy;                                                                           
+bind "F3" dota_purchase_stickybuy;                                                                            
+//bind "ALT - F2" stash_grab_all;                                                              
+ 
+bind "MWHEELUP" "dota_learn_stats";  
+bind "CAPSLOCK" +showscores;                                                                                           
+bind "F9" dota_pause;  
+bind "F10" disconnect;                                                                                           
+
+bind "/" toggleconsole;                                                                                            
+
+bind "MOUSE3" +cameragrip;  
+bind "W" dota_camera_saved_position 1;                                                                                                                                         
+bind "Mouse4" dota_recent_event;                                                   
+bind "I" inspectheroinworld;                                                                                    
+bind "ENTER" say;                                                                                      
+bind "KP_ENTER" say;                                                                  
+bind "G" +chatwheel;                                                                                     
+//bind "\" +iv_voicerecord_party;                        
+//bind "\" +voicerecord;                                         
+bind "MOUSE5" "+voicerecord";  
+
+bind "F5" chatwheel_say "49";                                                
+bind "F6" chatwheel_say "58";                                          
+bind "F7" chatwheel_say "59";                                                  
+bind "F8" chatwheel_say "5";                                           
+
+chat_wheel_phrase_0 8;                                 
+chat_wheel_phrase_1 8;                                                               
+chat_wheel_phrase_2 2;                                                       
+chat_wheel_phrase_3 7;                                                  
+chat_wheel_phrase_4 7;                                                     
+chat_wheel_phrase_5 7;                                                               
+chat_wheel_phrase_6 6;                                 
+chat_wheel_phrase_7 8;                                 
+
+
+
+dota_player_units_auto_attack_mode 1;                  //  Auto Attack                           0:Never, 1:Standard, 2:Always [1]
+dota_player_add_summoned_to_selection 1;               //  Auto Select Summoned Units                                          [0]
+dota_ability_quick_cast 1;                             //  Double Tap Ability to Self Cast                                     [1]
+dota_smart_doubletap 1;                                //  Smart Double Tap                           1:Alt+Key does Self Cast [1]
+dota_player_multipler_orders 1;                        //  Unified Orders with CTRL                                            [0]
+dota_player_teleport_requires_halt 1;                  //  Teleport Requires Hold/Stop                                         [1]
+dota_player_channels_require_stop 1;                   //  Channeled Abilities Require Hold/Stop                               [0]
+dota_force_right_click_attack 0;                       //  Right-Click to Force Attack                                         [0]
+//dota_settings_quick_target_attack 0;                   //  Quick Attack                                                        [0]
+//dota_settings_quick_move 0;                            //  Quick Move                                                          [0]
+ 
+
+dota_summoned_units_auto_attack_mode_2 -1;             //  Summoned Unit Auto Attack -1:AsHero, 0:Never, 1:Standard, 2:Always [-1]
+dota_disable_autoattack_during_stop 1;                 //  Disable Autoattack When Stop is Held                                [1]
+//dota_toggle_autoattack_automatically_during_orders 0;  //  Toggle Autoattack Automatically: Hold(S)=AA-Off, Stop(Alt+S)=AA-On  [0]
+dota_quickcast_onkeydown 1;                            //  Quickcast On Key Down                                               [1]
+//dota_shop_force_hotkeys 0;                             //  Shop Always Uses Hotkeys                                            [0]
+//dota_shop_search_autofocus 0;                          //  Shop Search Gets Focus On Open                                      [0]
+//dota_settings_targeted_attack_move 0;                  //  Smart Attack Move                                                   [1]
+dota_player_auto_repeat_right_mouse 1;                 //  Auto-repeat Right Mouse                                             [0]
+dota_spectator_use_broadcaster_stats_panel 1;          //  Use Broadcaster Stats                                               [1]
+dota_activate_window_on_match_found 0;                 //  Bring Dota2 to front when match found                               [0]
+dota_activate_window_on_hero_picking_start 0;          //  Bring Dota2 to front for pick phase and game start                  [0]
+dota_activate_window_on_unpause 0;                     //  Bring Dota2 to front when unpaused                                  [0]
+con_enable 1;                                          //  Enable console                                                      [1]
+ 
+
+dota_camera_edgemove 1;                                //  Edge Pan                                                            [1]
+dota_camera_reverse 0;                                 //  Reverse Camera Grip                                                 [0]
+dota_reset_camera_on_spawn 0;                          //  Center Camera on Hero on Respawn                                    [1]
+dota_camera_disable_zoom 1;                            //  Disable Camera Zoom                                                 [0]
+dota_camera_hold_select_to_follow 1;                   //  Hold Select Hero to Follow                                          [0]
+dota_camera_speed 3077;                                //  Camera Speed                                      5000:DotA-like [3000]
+ 
+
+dota_leftclick_cameragrip_new 0;                       //  Left-Click Activates Camera Grip                        0:Directly  [0]
+dota_screen_shake 1;                                   //  Enable Screen Shake                                                 [1]
+dota_camera_accelerate 49;                             //  Camera Deceleration                                                [49]
+dota_camera_dotatv_smooth_drag 0;                      //  Smoothdrag Camera when Spectating                                   [0]
+ 
+
+//dota_saved_camera_pos_1 [-7232 -6921 642.908447]       //? Radiant Fountain
+//dota_saved_camera_pos_2 [1317.40625 -4163.625 378.9055]//? Radiant Bot Shrine
+//dota_saved_camera_pos_3 [2250.5625 -1857.8437 213.8285]//? Bot Rune
+//dota_saved_camera_pos_4 [-4348.0937 198.21875 297.6516]//? Radiant Top Shrine      [kp_7]toprune [kp_8]shrine [kp_9]ancient
+//dota_saved_camera_pos_5 [-530 -400 0]                  //? Mid River               [kp_4]shrine  [kp_5]river  [kp_6]shrine
+//dota_saved_camera_pos_6 [3446.21875 330.15625 336.9679]//? Dire Bot Shrine         [kp_1]ancient [kp_2]shrine [kp_3]botrune
+//dota_saved_camera_pos_7 [-1760 1216 192.525253]        //? Top Rune + Roshpit
+//dota_saved_camera_pos_8 [-1201.7812 3914.1562 291.1723]//? Dire Top Shrine
+//dota_saved_camera_pos_9 [7168 6912 581.601013]         //? Dire Fountain
+//dota_saved_camera_pos_10;                              //  User defined, not overwritten by cfg
+ 
+                          
+dota_minimap_simple_colors 0;                          //  Use Simple Colors in Minimap                                        [0]
+dota_minimap_hide_background 0;                        //  Hide Minimap Background                                             [0]
+dota_hud_extra_large_minimap 1;                        //  Use Extra Large Minimap                                             [0]
+dota_minimap_show_hero_icon 1;                         //  Use Alt to show Hero icons                                          [1]
+dota_minimap_always_draw_hero_icons 0;                 //  Invert Alt Toggle                                                   [0]
+dota_hud_flip 0;                                       //  Show Minimap on the Right                                           [0]
+dota_minimap_hero_size 1000;                            //  Minimap Hero Size                                        800:133% [600]
+dota_minimap_creep_scale 2;
+dota_minimap_rune_size 500;
+
+dota_show_hero_finder 1;                               //  Holding ALT Highlights Hero                                         [1]
+dota_alt_shows_neutral_spawn_boxes 1;                  //  Holding ALT Shows Neutral Spawnboxes                                [0]
+dota_alt_shows_tower_attack_range 1;                   //  Holding ALT Shows Tower Attack Range                                [0]
+dota_enable_range_finder 1;                            //  Show Ability Rangefinder While Casting                              [0]
+dota_hero_overhead_names 0;                            //  Display Names over Healthbar           0:Heroes 1:Players 2:Nothing [0]
+dota_hud_healthbar_disable_status_display 1;          //  Disable Status Text                                i.e. "Stun bars" [0]
+dota_hud_disable_damage_numbers 0;                     //  Hide Damage Numbers                                                 [0]
+dota_hud_new_query_panel 1;                            //  Unit query overrides hero control console                           [1]
+dota_hud_colorblind 0;                                 //  Colorblind Mode               0:None 1:Enabled 2:Differentiate Ally [0]
+//cl_auto_cursor_scale 1;                                //  Automatically choose cursor size                                    [1]
+cl_cursor_scale 1;                                     //  Cursor size                                               0.3 - 3.0 [1]
+ 
+
+dota_minimap_misclick_time 0.20;                       //  Minimap Misclick Protection Time             0:every click counts [0.2]
+dota_ability_self_cast_timeout 0.6;                    //  Double-Tap Self Cast Timeout                                      [0.6]
+dota_minimap_hero_scalar 1;                            //  Dynamically Scale Hero Icons in Minimap                             [0]
+dota_continue_click_movement_after_cast_cancel 1;      //  Move after Ability Target Cancelled    Cvar longer than description [1]
+dota_camera_deatheffect 1;                             //  Camera Color-shift when Dead (forced always on if shaders enables)  [1]
+dota_hud_netgraph 1;                                   //  Display Network Information                                         [0]
+dota_hide_tips_on_loading_screens 0;                   //  Hide Tips on Loading Screens                                        [0]
+dota_default_spoilers_blocked 0;                       //  Default Tournament Spoiler Block to On                              [0]
+dota_armory_automatically_add_new_item_to_collection 0;//  Automatically Add New Items to Collection    Cvar longer than descr [0]
+dota_join_regional_chat_channel 0;                     //  Join regional chat channel on startup                PRIVACY ISSUE! [1]
+ 
+
+dota_chat_enable_whispers 1;                           //  Display Steam messages as whispers                                  [1]
+dota_chat_allow_global 0;                              //  Channel messages appear in other channel tabs                       [1]
+dota_chat_mute_everyone 0;                             //  Mute all incoming chat                                              [0]
+dota_chat_mute_enemies 0;                              //  Mute chat from enemies                                              [0]
+dota_ignore_nonfriend_invites 1;                       //  Block party invites from non-friends                                [0]
+dota_rp_hide_party_unless_open 1;                      //  Hide party status when not in an Open Party                         [0]
+dota_open_party_manual_accept_invites 1;               //  Do not auto-accept invites when in Open Party                       [0]
+dota_trading_show_requests_from 1;                     //  Trade invites from  1:Guildmates and Friends, 0:Friends, 2:Anyone   [1]
+ 
+
+cl_network_quality2 -1;                                //  Network Quality        High-end Network:1, Low-end Network:0, Def: [-1]
+ 
+
+input_button_code_is_scan_code 0;                      //  Bind keys based on keyboard position    Hit and miss, set it in GUI [0]
+dota_enable_direct_quickcast_bindings 0;               //  Enable Advanced Quickcast/Autocast Hotkeys                          [0]
+ 
+
+volume 1.0;                                            //  Master Volume                                                       [1]
+snd_gamevolume 1.0;                                    //  Game Sounds                                                         [1]
+snd_musicvolume 0.7;                                   //  Music                                                               [1]
+snd_voipvolume 1.0;                                    //  Voice                                                               [1]
+snd_gamevoicevolume 0.7;                               //  Unit Speech                                                         [1]
+dota_speech_level 1.0;                                   //  Unit Speech Level:                             0:Off 1:Events 2:All [2]
+ 
+
+sound_device_override 0;                               //  Sound Device                  Better set the default in OS settings [0]
+speaker_config -1;                                     //  Speakers config   7:7.1, 5:5.1, 4:4.0, 2:stereo, 1:hphones, -1:def [-1]
+snd_mute_losefocus 1;                                  //  !Play Sound in Desktop      Really dislike these inversed gui-cvars [1]
+chat_sound 1;                                          //  Chat Message Sound                                                  [0]
+dota_mute_cobroadcasters 0;                            //  Mute Co-Broadcasters                                                [0]
+closecaption 0;                                        //  Use Captions                                                        [0]
+dota_force_default_respawn_stinger 0;                  //  Always use default respawn music                                    [0]
+dota_force_default_death_stinger 0;                    //  Always play default death music                                     [0]
+snd_autodetect_latency 1;                              //  Autodetect Audio Latency                                            [1]
+ 
+
+voice_vox 0;                                           //  Enable Open Mic               0:None, 1:Party, 2:Team               [0]
+voice_threshold 4000;                                  //  Open Mic Threshold ~10%       0:0%, 65535:100% i.e. disabled     [4000]
+voice_always_sample_mic 0;                             //  Streamlined Push To Talk      Enable if voice hotkey gives fps loss [0]
+ 
+//alias  Reference preset                                 VIDEO - D-OPTIMIZER PRESETS:      Potato  Low  OPTIMAL  Med   High  Ultra 
+dota_portrait_animate 1;                               //  Animate Portrait                 0      0      0      1      1      1
+r_deferred_additive_pass 1;                            //  Additive Light Pass              0      0      1      1      1      1
+r_deferred_simple_light 1;                             //  World Lighting                   0      1      1      1      1      1
+r_ssao 0;                                              //  Ambient Occlusion                0      0      0      0      0      1
+r_dota_normal_maps 1;                                  //  Normal Maps                      0      0      1      1      1      1
+r_dota_allow_parallax_mapping 0;                       //  Ground Parallax                  0      0      0      0      1      1
+dota_ambient_creatures 0;                              //  Ambient Creatures                0      0      0      0      1      1
+dota_ambient_cloth 1;                                  //  Ambient Cloth Simulation         0      0      1      1      1      1
+r_grass_quality 1;                                     //  Grass                            0      0      1      2      3      4
+ 
+r_dota_fxaa 1;                                         //  Anti-Aliasing                    0      0      0      0      1      1
+r_deferred_specular 0;                                 //  Specular                         0      0      0      1      1      1
+r_deferred_specular_bloom 0;                           //  Specular and Light Blooms        0      0      0      0      1      1
+dota_cheap_water 0;                                    //  !High Quality Water              1      1      1      1      0      0
+r_deferred_height_fog 1;                               //  Atmospheric Fog                  0      0      0      1      1      1
+r_dashboard_render_quality 1;                          //  High Quality Dashboard           0      0      0      0      1      1
+r_dota_allow_wind_on_trees 1;                          //  Tree Wind                        0      0      1      1      1      1
+ 
+r_texture_stream_mip_bias 0;                           //  Texture Quality                  2      1      1      1      0      0
+r_texturefilteringquality 5;                           //  Texture Filtering (not in GUI)   0      1      2      3      4      5
+cl_particle_fallback_base 0;                           //  Effects Quality                  4      4      4      2      0      0
+cl_globallight_shadow_mode 0;                          //  Shadow Quality                   0      1      2      2      2      3
+mat_viewportscale 1.0;                                //  Render Quality                 0.71   0.81   0.91   1.0    1.0    1.0
+fps_max 120.0f;                                        //  Maximum frames per second       60     60    120    120    144    240
+
+
+//dota_hero_auto_graball 0;                              //  1:Automatically grab items from stash when hero return to fountain  [0]
+//dota_minimap_disable_rightclick 0;                     //  1:Disable right-click over minimap - can be annoying at first       [0]
+//dota_player_simplified_controls 0;                     //  1:R-click move, L-click attack, L-click drag to select, etc.        [0]
+//dota_player_smart_multiunit_cast 0;                    //  1:Trigger ability for the next same unit in selection without Tab   [0]
+//dota_swap_mouse_spellcast 0;                           //  1:Trigger ability on left click instead, breaks quickcast!          [0]
+//dota_minimap_creep_scale 1.0;                          //  1:Minimap creep scale                                               [1]
+//voice_chat_bubble_show_volume 1;                       //  1:Show voice volume on chat bubles, 0 breaks the bubles!            [1]
+//voice_local_icon 0;                                    //  1:Show icon while you speak in local bot match                      [0]
+//cl_voice_transmit_lobby 0;                             //  1:Transmit voice while in lobby?                                    [0]
+dota_speech_emotes 1;                                  //  1:Enable speech emotes                                              [1]
+//hud_fastswitch 0;                                      //  1:Nothing atm (still)                                               [0]
+//r_dota_disable_portrait_world_renderer 0;              //  1:Disable 3d models+particles in menu - RIP because greedy golem    [0]
+//engine_experimental_drop_frame_ticks 1;                //  1:Skip frame ticks when the client is catching up in low fps - NEW! [1]
+ 
+
+//cl_updaterate 30;                                      //  low:15, high:30, max=sv_maxupdaterate=60, min=sv_minupdaterate=10  [20]
+//cl_cmdrate 30;                                         //  low:15, high:30, max=sv_maxcmdrate=40, min=10                      [30]
+//cl_spectator_cmdrate_factor 0.5;                       //  Rate multiplier when connected via hltv reduced for high rates    [0.5]
+//cl_interp_ratio 2;                                     //  min=sv_client_min_interp_ratio=1, max=sv_client_max_interp_ratio=5  [2]
+//cl_spectator_interp_ratio 2;                           //  When connected to hltv or playing a demo, adjust interp time by     [2]
+//cl_interp 0.05;                                        //  cl_interp_ratio/cl_updaterate; for 60 upd is 0.016667; 0=auto    [0.05]
+ 
+
+//rate 80000;                                            //  min=sv_minrate=5000 won't actually consume that much            [80000]
+//net_maxcleartime 4.0;                                  //  chocke fix: 0.01                                                  [4.0]
+//net_splitrate 1;                                       //  chocke fix: 2                                                       [1]
+//net_maxroutable 1200;                                  //  max=sv_maxroutable max packet size before splitting              [1200]
+//host_limitlocal 0;                                     //  Apply cl_cmdrate and cl_updaterate to loopback connection           [0]
+//cl_downloadfilter all;                                 //  does nothing?                                                     [all]
+//alias - cl_predict 0;                                  //  The most important tweaking cvar has been disabled in matchmaking   [0]
+//cl_pred_optimize 2;                                    //  if didn't receive a network update(1), also for not repredicting(2) [2]
+//cl_lagcompensation 1;                                  //  Perform server side lag compensation of weapon firing events.       [1]
+//cl_lagcomp_errorcheck 0;                               //  Player index of other player to check for position errors.          [0]
+//cl_smooth 1;                                           //  Smooth view/eye origin after prediction errors                      [0]
+//cl_smoothtime 0.1;                                     //  Smooth client's view after prediction error over this many secs   [0.1]
+//cl_interp_threadmodeticks 0;                           //  Additional interpolation ticks to use with threaded engine mode set [0]
+ 
+
+//snd_mixahead 0.001;                                    //  Sound engine buffer - fix crackling: 0.2 / 0.1 (slight delay)   [0.001]
+//m_rawinput 0;                                          //  Use Raw Input for mouse - better in high pooling rate (500Hz+)      [0]
+//m_mousespeed 1;                                        //  Windows mouse speed acceleration 0=disable 1=enable                 [1]
+//engine_no_focus_sleep 20;                              //  Power savings while alt-tab 50=more, 0=none (for streaming)        [20]
+//r_experimental_lag_limiter 0;                          //  1:VSync w less inputlag if can maintain fps (dev.dota2 t=184108)    [0]
+//r_frame_sync_enable 1;                                 //  0:Disable frame sync for broken systems (dev.dota2 t=174732)        [1]
+//voice_chat_bubbles 1;                                  //  Show voice bubbles - Random polygon lines when voice (fixed in 7.0) [1]
+//dota_show_itempickups 1;                               //  Show Item pickups - If multiple instances lowers fps, set to 0      [1]
+//@panorama_show_fps 0;                                  //  Show FPS in main menu, too - or use cl_showfps 4 instead            [0]
+ 
+
+// Camera Zoom with [-] and [+] instead of default MWHEELUP / MWHEELDOWN since those are re-assigned for better tasks by this cfg
+//bind = "camerazoomin"//                                                                          Or set to [ALT]+[MWHEELUP] in GUI
+//bind - "camerazoomout"//                                                                       Or set to [ALT]+[MWHEELDOWN] in GUI
