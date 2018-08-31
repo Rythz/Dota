@@ -1,0 +1,23 @@
+bind "space" +dota_camera_follow;
+bind "`" dota_hold; 
+closecaption 0;  
+bind "F10" disconnect ;  
+   
+bind "Q" dota_ability_quickcast 0;
+bind "W" dota_ability_quickcast 1;
+bind "A" mc_attack;
+bind "Z" dota_camera_saved_position 1;   
+ 
+
+bind "F5" chatwheel_say "49";                                                
+bind "F6" chatwheel_say "58";                                          
+bind "F7" chatwheel_say "59";
+bind "F8" chatwheel_say "5"; 
+  
+dota_hud_extra_large_minimap 1; 
+dota_camera_speed 3077;  
+   
+
+dota_minimap_hero_size 1000;                           
+dota_minimap_creep_scale 2;    
+dota_minimap_rune_size 500;
